@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { LocationList } from './components/LocationList';
 import { KandyKorner } from './components/KandyKorner';
 
 ReactDOM.render(
