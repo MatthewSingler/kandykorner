@@ -6,8 +6,10 @@ export const KandyKorner = () => {
     return (
         <>
             <h1>Kandy Korner Sweet Shoppe</h1>
-            <h3><LocationList /></h3>
-            <p><ProductList /></p>
+            <h3>Locations</h3>
+            <LocationList />
+            <h3>Products</h3>
+            <ProductList />
         </>
     )
 }
