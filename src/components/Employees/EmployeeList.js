@@ -17,13 +17,6 @@ export const EmployeeList = () => {
         []
     )
 
-    useEffect(
-        () => {
-            const eachEmployee = employees.map(employee => employee.name)
-            setEmployees(eachEmployee.join(", "))
-        }, [employees])
-
-
 
     return (
         <>

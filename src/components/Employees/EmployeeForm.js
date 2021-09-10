@@ -83,7 +83,7 @@ export const EmployeeForm = () => {
                         required autoFocus
                         type="text"
                         className="form-control"
-                        placeholder="employee manager"
+                        placeholder="Yes/No"
                         onChange={
                             (event) => {
                                 const copyOfEmployee = { ...newEmployee }
@@ -99,7 +99,7 @@ export const EmployeeForm = () => {
                         required autoFocus
                         type="text"
                         className="form-control"
-                        placeholder="employee rate"
+                        placeholder="Rate"
                         onChange={
                             (event) => {
                                 const copyOfEmployee = { ...newEmployee }
@@ -115,7 +115,7 @@ export const EmployeeForm = () => {
                         required autoFocus
                         type="text"
                         className="form-control"
-                        placeholder="employee full time"
+                        placeholder="Yes/No"
                         onChange={
                             (event) => {
                                 const copyOfEmployee = { ...newEmployee }
