@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
+import { useHistory } from "react-router";
 
 export const CustomerList = () => {
     const [customers, setCustomers] = useState([])
 
+    const history = useHistory()
+
     useEffect(
         () => {
-    fetch("http://localhost8088/customers")
+    fetch("http://localhost:8088/customers")
         .then(r => r.json())
         .then((customerArray) => {
         setCustomers(customerArray)
@@ -22,6 +25,9 @@ export const CustomerList = () => {
                 }
                 )
             }
+            <button onClick={() => history.push("/customers/create")} className="btn btn-primary">
+                Add Customer
+            </button>
         </>
     )
 } 
