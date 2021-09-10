@@ -64,7 +64,7 @@ export const EmployeeForm = () => {
                 <div className="form-group">
                     <label htmlFor="location">Location</label>
                     <input
-                        required autoFocus
+                        required
                         type="text"
                         className="form-control"
                         placeholder="employee location"
@@ -80,7 +80,7 @@ export const EmployeeForm = () => {
                 <div className="form-group">
                     <label htmlFor="manager">Manager</label>
                     <input
-                        required autoFocus
+                        required
                         type="text"
                         className="form-control"
                         placeholder="Yes/No"
@@ -96,7 +96,7 @@ export const EmployeeForm = () => {
                 <div className="form-group">
                     <label htmlFor="rate">Hourly Rate</label>
                     <input
-                        required autoFocus
+                        required
                         type="text"
                         className="form-control"
                         placeholder="Rate"
@@ -112,7 +112,7 @@ export const EmployeeForm = () => {
                 <div className="form-group">
                     <label htmlFor="full time">Full Time</label>
                     <input
-                        required autoFocus
+                        required
                         type="text"
                         className="form-control"
                         placeholder="Yes/No"
